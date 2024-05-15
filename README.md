@@ -30,23 +30,23 @@ O projeto utiliza as seguintes tecnologias:
 Para executar o projeto localmente, siga estas etapas:
 
 1. Clone este repositório:
-
-git clone https://github.com/seu-usuario/prime-flix.git
+`git clone https://github.com/seu-usuario/prime-flix.git`
 
 2. Entre na pasta do projeto:
+`cd primeflix-reactjs`
 
 3. Instale as dependências:
-npm install
+`npm install`
 
 4. Inicie o servidor de desenvolvimento:
-npm start
+`npm start`
 
 
 O aplicativo estará disponível em `http://localhost:3000`.
 
 ## Autor
 
-Este projeto foi desenvolvido por [Seu Nome](https://github.com/natanlimaz).
+Este projeto foi desenvolvido por [Natan Lima](https://github.com/natanlimaz).
 
 ## Contribuição
 
