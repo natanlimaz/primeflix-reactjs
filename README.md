@@ -10,12 +10,13 @@ O projeto utiliza as seguintes tecnologias:
 - Axios: Cliente HTTP baseado em Promises para realizar requisições à API do The Movie DB.
 - React Router DOM: Biblioteca para roteamento de URLs em aplicativos React.
 - React Toastify: Biblioteca para exibição de notificações estilo toast.
+- LocalStorage: API dos navegadores que permite armazenar dados de forma persistente no navegador do usuário, útil para manter o estado da aplicação entre sessões.
 
 ## Funcionalidades
 
 1. **Visualização de Filmes nos Cinemas**: O aplicativo exibe uma lista de filmes que estão atualmente em cartaz nos cinemas, obtidos através da API do The Movie DB.
 
-2. **Detalhes do Filme**: Os usuários podem clicar em um filme na página inicial para visualizar mais informações sobre ele, como sinopse, elenco, classificação, etc.
+2. **Detalhes do Filme**: Os usuários podem clicar em um filme na página inicial para visualizar mais informações sobre ele, como titulo, sinopse, avaliação, etc.
 
 3. **Lista de Favoritos**: É possível salvar filmes em uma lista de favoritos. Um toast é exibido na tela através do React Toastify para confirmar que o filme foi salvo com sucesso.
 
@@ -24,6 +25,8 @@ O projeto utiliza as seguintes tecnologias:
 5. **Exclusão de Filme da Lista**: Dentro da lista de favoritos, os usuários podem remover um filme da lista. Um toast é exibido para confirmar a remoção com sucesso.
 
 6. **Visualização de Detalhes dos Filmes Favoritos**: Os usuários podem clicar em um filme na lista de favoritos para visualizar mais detalhes sobre ele.
+
+7. **Dentro da página de detalhes dos filmes há um botão clicável que leva para seu Trailer no Youtube**: Os usuários podem clicar no botão trailer e o mesmo abrirá uma nova aba no youtube encaminhando para o trailer do filme correspondente. 
 
 ## Instalação e Uso
 
